@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ```
 vue-sourcecode-analysis
@@ -214,3 +215,7 @@ vue-sourcecode-analysis
 └─ yarn.lock
 
 ```
+=======
+# vue-sourcecode-analysis
+Vue2源码分析demo
+>>>>>>> afc0b637e571ae9df83badd052972c40e04eedd1
