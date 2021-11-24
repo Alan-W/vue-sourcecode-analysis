@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+
+### Vue2 源码分析实例
+
+#### 文件结构：
 
 ```
 vue-sourcecode-analysis
@@ -6,7 +9,7 @@ vue-sourcecode-analysis
 ├─ .babelrc
 ├─ .flowconfig
 ├─ README.md
-├─ examples
+├─ examples    // demo 文件夹
 │  ├─ App.vue
 │  ├─ components
 │  │  ├─ child1.vue
@@ -30,8 +33,8 @@ vue-sourcecode-analysis
 ├─ public
 │  ├─ index.html
 │  └─ main.js
-├─ rollup.config.js
-├─ src
+├─ rollup.config.js // 项目配置
+├─ src              // vue2的核心源码
 │  ├─ compiler
 │  │  ├─ codegen
 │  │  │  ├─ events.js
@@ -215,7 +218,13 @@ vue-sourcecode-analysis
 └─ yarn.lock
 
 ```
-=======
-# vue-sourcecode-analysis
-Vue2源码分析demo
->>>>>>> afc0b637e571ae9df83badd052972c40e04eedd1
+
+#### 命令行说明：
+
+    yarn install
+
+    yarn serve
+
+
+* 调试源码，直接在src中增加断点或者添加打印，会自动刷新publc/main.js *
+
